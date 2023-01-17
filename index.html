@@ -10,7 +10,7 @@
 <body>
     <section class="pitsa">
         <div class="buyurtma">
-            <h2>Nonni qalinligini tanlang: </h2>
+            <h2 class="non1">Nonni qalinligini tanlang: </h2>
 
             <select  class="sel__pizza">
                 <option value="Tanlang">Tanlang :</option>
@@ -19,56 +19,72 @@
                 <option value="Yupqa">Yupqa</option>
             </select>
             
-            <h2>Kattaligini tanlang :</h2>
+            <h2 class="katta">Kattaligini tanlang :</h2>
             
-            <button class="btn__1">20sm</button>
-            <button class="btn__2">25sm</button>
-            <button class="btn__3">30sm</button>
+            <span class="btn__span">
+                <button class="btn__1  btn">20sm</button>
+                <button class="btn__2 btn">25sm</button>
+                <button class="btn__3 btn">30sm</button>
+            </span>
 
-            <h2>Ustiga nima solinsin ?</h2>
+            <h2 class="ustiga">Ustiga nima solinsin ?</h2>
             
-            <input class="pomidor" type="checkbox" id="pomidor">
-            <label for="pomidor">Pomidor;</label>
+            <span class="inp">
             
-            <input class="bodring" type="checkbox" id="bodring">
-            <label for="bodring">Bodring;</label>
+                <input class="pomidor check__inp" type="checkbox" id="pomidor">
+                <label for="pomidor" class="check">Pomidor;</label>
+                
+                <input class="bodring check__inp" type="checkbox" id="bodring">
+                <label for="bodring" class="check">Bodring;</label>
+                
+                <input class="karom check__inp" type="checkbox" id="karom">
+                <label for="karom" class="check">Karom;</label>
+                
+                <input class="sir check__inp" type="checkbox" id="sir">
+                <label for="sir" class="check">Pishloq;</label>
+                
+                <input class="mayonez check__inp" type="checkbox" id="mayonez">
+                <label for="mayonez" class="check">Mayonez;</label>
+                
+                <input class="ketchup check__inp" type="checkbox" id="ketchup">
+                <label for="ketchup" class="check">Ketchup;</label>
+                
+            </span>
+
+            <h2 class="qoshimcha1">Qo'shimcha !</h2>
             
-            <input class="karom" type="checkbox" id="karom">
-            <label for="karom">Karom;</label>
-            
-            <input class="sir" type="checkbox" id="sir">
-            <label for="sir">Sir;</label>
-            
-            <input class="mayonez" type="checkbox" id="mayonez">
-            <label for="mayonez">Mayonez;</label>
-            
-            <input class="ketchup" type="checkbox" id="ketchup">
-            <label for="ketchup">Ketchup;</label>
-            
-            <h2>Qo'shimcha !</h2>
-            <input type="checkbox" id="qalampir">
-            <label for="qalampir">Qalampir;</label>
-            <input type="checkbox" id="qazi">
-            <label for="qazi">Qazi;</label>    
+            <input type="checkbox" id="qalampir" class="qalampir check__inp">
+            <label for="qalampir" class="check">Qalampir;</label>
+            <input type="checkbox" id="qazi" class="qazi check__inp">
+            <label for="qazi" class="check">Qazi;</label>    
         </div>
         <hr class="line">
         <div class="maxsulot">
-            <h3 class="max__non">Non : 
+            <h3 class="max__non sub">Non : 
                 <b class="non"></b>
             </h3>
-            <h3>Xajmi :
+            <h3 class="sub">Xajmi :
                 <b class="xajmi"></b>
             </h3>
-            <h3>Ustiga :
+            <h3 class="sub">Ustiga :
                 <ul class="tarkibi">
                 </ul>
             </h3>
-            <h3>Qoshimcha : 
+            <h3 class="sub">Qoshimcha : 
                 <ul class="qoshimcha">
                 </ul>
             </h3>
+            <button class="Btn_buyurtma">Buyurtma berish</button>
         </div>
     </section>
+
+    <h1 class="natija">
+        <ul class="list">
+
+        </ul>
+    </h1>
+
+
     <script src="./js/main.js"></script>
 </body>
 </html>
